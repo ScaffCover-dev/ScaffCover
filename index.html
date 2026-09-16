@@ -36,6 +36,8 @@
   window.addEventListener('hashchange', apply);
 })();
 </script>
+
+
 </head>
 <body>
 <!-- Insert into the initial document. Remove when the application is ready. -->
@@ -153,7 +155,7 @@ a:focus-visible,button:focus-visible{outline:3px solid #298eeb;outline-offset:3p
 
 <main id="sc-main" tabindex="-1">
 <sc-if value="{{ isHome }}" hint-placeholder-val="{{ true }}">
-<div id="home-hero-grid" style="position:relative; background:#091c30; display:grid; --hero-h:clamp(560px,82vh,840px); grid-template-columns:1fr min(48%,calc(var(--hero-h) * 0.93)); grid-template-rows:minmax(0,1fr); align-items:stretch; height:var(--hero-h); overflow:hidden;">
+<div id="home-hero-grid" style="position:relative; background:#091c30; display:grid; --hero-h:clamp(560px,72vh,720px); grid-template-columns:1fr min(48%,calc(var(--hero-h) * 0.85)); grid-template-rows:minmax(0,1fr); align-items:stretch; height:var(--hero-h); overflow:hidden;">
   <div style="position:relative; overflow:hidden; display:flex; min-height:0;">
     <div style="position:absolute;inset:0;background:linear-gradient(135deg,#102c43,#091c30);pointer-events:none;"></div>
     <div style="position:relative; z-index:1; width:100%; max-width:680px; margin-left:auto; padding:clamp(48px,7vw,88px) clamp(24px,4vw,56px) clamp(48px,7vw,88px) clamp(24px,4vw,48px); display:flex; flex-direction:column; justify-content:center; gap:24px;">
@@ -1754,5 +1756,14 @@ window.addEventListener('load',()=>{
  new MutationObserver(scan).observe(document.body,{childList:true,subtree:true});scan();
 },{once:true});
 </script>
+<style id="homepage-image-review">
+@media (max-width:820px){
+  #hero-photo-wrap{height:clamp(340px,65vw,520px)!important;overflow:hidden!important;}
+  #hero-photo-img{position:absolute!important;height:100%!important;aspect-ratio:auto!important;object-position:center 62%;}
+}
+@media (max-width:480px){
+  #hero-photo-wrap{height:auto!important;aspect-ratio:4/5;}
+}
+</style>
 </body>
 </html>
