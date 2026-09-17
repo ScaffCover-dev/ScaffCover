@@ -1722,8 +1722,12 @@ window.addEventListener('load',()=>{
 }
 </style>
 <style id="wide-hero-framing">
-@media(min-width:821px){#hero-photo-img{object-fit:contain!important;background:#091c30;}}
-@media(max-width:820px){#hero-photo-wrap{height:auto!important;aspect-ratio:4/3!important;}#hero-photo-img{object-position:center!important;}}
+/* Tight project crop: retain the complete left silo and both white panel runs. */
+#hero-photo-wrap{overflow:hidden!important;align-self:center;aspect-ratio:970/700!important;height:auto!important;}
+#hero-photo-img{position:absolute!important;max-width:none!important;width:149.2784%!important;height:155.1429%!important;left:-12.3711%!important;top:-40.7143%!important;object-fit:fill!important;}
+@media(min-width:821px){#hero-photo-wrap{width:calc(100% + max(0px,(100vw - 1280px)/2))!important;}}
+@media(max-width:820px){#hero-photo-wrap{width:100%!important;}}
 </style>
 </body>
 </html>
+
