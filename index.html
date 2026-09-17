@@ -170,7 +170,7 @@ a:focus-visible,button:focus-visible{outline:3px solid #298eeb;outline-offset:3p
     </div>
   </div>
   <div id="hero-photo-wrap" style="position:relative; height:100%; width:100%; min-height:0; overflow:hidden;">
-    <img id="hero-photo-img" src="assets-p-hero-enclosure-wide-v3.png" alt="AI-enhanced visualisation of BlastGuard containment around an industrial project" style="position:absolute; inset:0; width:100%; height:100%; object-fit:cover; object-position:center 62%; display:block;" />
+    <img id="hero-photo-img" src="assets-p-hero-clean-v4.png" alt="AI-enhanced visualisation of BlastGuard containment around an industrial project" style="position:absolute; inset:0; width:100%; height:100%; object-fit:cover; object-position:center 62%; display:block;" />
   </div>
 </div></div>
 
@@ -203,7 +203,7 @@ a:focus-visible,button:focus-visible{outline:3px solid #298eeb;outline-offset:3p
 
 <div style="background:#f4f6f9; border-top:1px solid #e2e6ec; border-bottom:1px solid #e2e6ec;">
   <div id="home-eng-grid" style="max-width:1280px; margin:0 auto; padding:clamp(56px,7vw,88px) clamp(24px,4vw,48px); display:grid; grid-template-columns:1.2fr 1fr; gap:clamp(32px,5vw,56px); align-items:center;">
-    <img src="assets-comp-ringlock-standalone.png" alt="Ringlock connector (TRSC), one of the TRAKTEC core connectors" style="width:100%; max-width:540px; height:auto; max-height:420px; object-fit:contain; justify-self:center;" />
+    <img src="assets-comp-mk2-straight-v3.png" alt="ScaffCover MK2 connector with satin galvanised finish" style="width:100%; max-width:540px; height:auto; max-height:420px; object-fit:contain; justify-self:center;" />
     <div style="display:flex; flex-direction:column; gap:16px;">
       <div style="font-family:'IBM Plex Mono', monospace; font-size:11px; font-weight:600; letter-spacing:0.14em; text-transform:uppercase; color:#1F6FC0;">Engineering</div>
       <h2 style="font-family:'Inter Tight', sans-serif; margin:0; font-weight:800; font-size:clamp(26px,3vw,36px); color:#091c30; line-height:1.15;">9.7× stronger per metre than traditional tying methods.*</h2>
@@ -1724,10 +1724,13 @@ window.addEventListener('load',()=>{
 <style id="wide-hero-framing">
 /* Tight project crop: retain the complete left silo and both white panel runs. */
 #hero-photo-wrap{overflow:hidden!important;align-self:center;aspect-ratio:970/700!important;height:auto!important;}
-#hero-photo-img{position:absolute!important;max-width:none!important;width:149.2784%!important;height:155.1429%!important;left:-12.3711%!important;top:-40.7143%!important;object-fit:fill!important;}
-@media(min-width:821px){#hero-photo-wrap{width:calc(100% + max(0px,(100vw - 1280px)/2))!important;}}
+#hero-photo-img{position:absolute!important;max-width:none!important;width:149.2784%!important;height:155.1429%!important;left:50%!important;transform:translateX(-50.6%)!important;top:-40.7143%!important;object-fit:fill!important;}
+@media(min-width:821px){#home-hero-grid{max-width:none!important;grid-template-columns:44% 56%!important;height:clamp(580px,40.4124vw,840px)!important;}#home-hero-grid > div:first-child > div:last-child{padding:40px clamp(28px,4vw,72px)!important;max-width:680px!important;}#home-hero-grid h1{font-size:clamp(36px,3.4vw,58px)!important;}#hero-photo-wrap{width:100%!important;height:100%!important;aspect-ratio:auto!important;align-self:stretch;}#hero-photo-img{height:155.1429%!important;width:auto!important;}}
 @media(max-width:820px){#hero-photo-wrap{width:100%!important;}}
 </style>
 </body>
 </html>
+
+
+
 
