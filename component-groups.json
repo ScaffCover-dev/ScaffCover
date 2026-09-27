@@ -344,11 +344,9 @@
       "context": false,
       "review_note": "Name, code and function confirmed by Troy on 27 September 2026.",
       "basis": "Original imported parent hierarchy; native root matched by exact translation and kind, not old IDs.",
-      "label": "Articulation Connector · ARC",
-      "purpose": "Centres the connecting scaffold tube on the scaffold standard, keeping the ScaffCover track in line with the standard.",
-      "details": [
-        "A dedicated component used with the ScaffCover system; it is not a standard scaffold component."
-      ]
+      "label": "Articulation Connector",
+      "purpose": "Aligns the connecting scaffold tube and ScaffCover track with the scaffold upright.",
+      "details": []
     },
     {
       "id": "N013",
@@ -373,11 +371,9 @@
       "context": false,
       "review_note": "Name, code and function confirmed by Troy on 27 September 2026.",
       "basis": "Original imported parent hierarchy; native root matched by exact translation and kind, not old IDs.",
-      "label": "Articulation Connector · ARC",
-      "purpose": "Centres the connecting scaffold tube on the scaffold standard, keeping the ScaffCover track in line with the standard.",
-      "details": [
-        "A dedicated component used with the ScaffCover system; it is not a standard scaffold component."
-      ]
+      "label": "Articulation Connector",
+      "purpose": "Aligns the connecting scaffold tube and ScaffCover track with the scaffold upright.",
+      "details": []
     },
     {
       "id": "N014",
@@ -474,11 +470,9 @@
       "context": false,
       "review_note": "Name, code and function confirmed by Troy on 27 September 2026.",
       "basis": "Original imported parent hierarchy; native root matched by exact translation and kind, not old IDs.",
-      "label": "Articulation Connector · ARC",
-      "purpose": "Centres the connecting scaffold tube on the scaffold standard, keeping the ScaffCover track in line with the standard.",
-      "details": [
-        "A dedicated component used with the ScaffCover system; it is not a standard scaffold component."
-      ]
+      "label": "Articulation Connector",
+      "purpose": "Aligns the connecting scaffold tube and ScaffCover track with the scaffold upright.",
+      "details": []
     },
     {
       "id": "N019",
@@ -557,11 +551,9 @@
       "context": false,
       "review_note": "Name, code and function confirmed by Troy on 27 September 2026.",
       "basis": "Original imported parent hierarchy; native root matched by exact translation and kind, not old IDs.",
-      "label": "Articulation Connector · ARC",
-      "purpose": "Centres the connecting scaffold tube on the scaffold standard, keeping the ScaffCover track in line with the standard.",
-      "details": [
-        "A dedicated component used with the ScaffCover system; it is not a standard scaffold component."
-      ]
+      "label": "Articulation Connector",
+      "purpose": "Aligns the connecting scaffold tube and ScaffCover track with the scaffold upright.",
+      "details": []
     },
     {
       "id": "N023",
@@ -992,8 +984,8 @@
       "context": false,
       "review_note": "Name and code confirmed by Troy on 27 September 2026; function from prior founder training direction.",
       "basis": "Original imported parent hierarchy; native root matched by exact translation and kind, not old IDs.",
-      "label": "TrakTec Articulated Extension Bar · TAEB",
-      "purpose": "Allows horizontal and vertical angle adjustment of the suspension bar.",
+      "label": "TrakTec Articulated Extension Bar",
+      "purpose": "Adjusts the suspension bar angle horizontally and vertically.",
       "details": [],
       "code": "TAEB"
     },
@@ -1083,16 +1075,14 @@
       ],
       "source_tag": "Roller Assembly",
       "native_path": "root/group[45]",
-      "display_name": "Roller Assembly — Roller Assembly · N047",
+      "display_name": "Roller Assembly",
       "unconfirmed": true,
       "context": false,
       "review_note": "Function confirmed by Troy on 27 September 2026; detailed assembly sequence remains project-specific.",
       "basis": "Original imported parent hierarchy; native root matched by exact translation and kind, not old IDs.",
       "label": "Roller Assembly",
-      "purpose": "Connects to the scaffold through the bottom of the ScaffCover track, allowing the fabric to be deployed onto and removed from the scaffold.",
-      "details": [
-        "Works as part of the ScaffCover deployment and recovery system."
-      ]
+      "purpose": "Helps deploy and recover the fabric on the scaffold.",
+      "details": []
     },
     {
       "id": "N048",
@@ -1165,8 +1155,8 @@
       "context": false,
       "review_note": "Displayed naming follows latest direct Troy instruction on 27 September 2026; native source tag retained for traceability.",
       "basis": "Original imported parent hierarchy; native root matched by exact translation and kind, not old IDs.",
-      "label": "TrakTec Wall Clamp · KWC",
-      "purpose": "Used with the suspension bar to position the panel at the required height in the selected project arrangement.",
+      "label": "TrakTec Wall Clamp",
+      "purpose": "Positions the suspension bar and panel at the required height.",
       "details": [],
       "code": "KWC"
     },

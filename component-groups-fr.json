@@ -339,16 +339,14 @@
       ],
       "source_tag": "ARC",
       "native_path": "root/group[10]",
-      "display_name": "Connecteur d’articulation",
+      "display_name": "Connecteur articulé",
       "unconfirmed": true,
       "context": false,
       "review_note": "Nom, code et fonction confirmés par Troy le 27 septembre 2026.",
       "basis": "Original imported parent hierarchy; native root matched by exact translation and kind, not old IDs.",
-      "label": "Connecteur d’articulation · ARC",
-      "purpose": "Centre le tube d’échafaudage de liaison sur le montant, en maintenant le rail ScaffCover dans l’alignement du montant.",
-      "details": [
-        "Composant dédié au système ScaffCover ; ce n’est pas une pièce standard d’échafaudage."
-      ]
+      "label": "Connecteur articulé",
+      "purpose": "Aligne le tube de liaison et le rail ScaffCover sur le montant de l’échafaudage.",
+      "details": []
     },
     {
       "id": "N013",
@@ -368,16 +366,14 @@
       ],
       "source_tag": "ARC",
       "native_path": "root/group[11]",
-      "display_name": "Connecteur d’articulation",
+      "display_name": "Connecteur articulé",
       "unconfirmed": true,
       "context": false,
       "review_note": "Nom, code et fonction confirmés par Troy le 27 septembre 2026.",
       "basis": "Original imported parent hierarchy; native root matched by exact translation and kind, not old IDs.",
-      "label": "Connecteur d’articulation · ARC",
-      "purpose": "Centre le tube d’échafaudage de liaison sur le montant, en maintenant le rail ScaffCover dans l’alignement du montant.",
-      "details": [
-        "Composant dédié au système ScaffCover ; ce n’est pas une pièce standard d’échafaudage."
-      ]
+      "label": "Connecteur articulé",
+      "purpose": "Aligne le tube de liaison et le rail ScaffCover sur le montant de l’échafaudage.",
+      "details": []
     },
     {
       "id": "N014",
@@ -469,16 +465,14 @@
       ],
       "source_tag": "ARC",
       "native_path": "root/group[16]",
-      "display_name": "Connecteur d’articulation",
+      "display_name": "Connecteur articulé",
       "unconfirmed": true,
       "context": false,
       "review_note": "Nom, code et fonction confirmés par Troy le 27 septembre 2026.",
       "basis": "Original imported parent hierarchy; native root matched by exact translation and kind, not old IDs.",
-      "label": "Connecteur d’articulation · ARC",
-      "purpose": "Centre le tube d’échafaudage de liaison sur le montant, en maintenant le rail ScaffCover dans l’alignement du montant.",
-      "details": [
-        "Composant dédié au système ScaffCover ; ce n’est pas une pièce standard d’échafaudage."
-      ]
+      "label": "Connecteur articulé",
+      "purpose": "Aligne le tube de liaison et le rail ScaffCover sur le montant de l’échafaudage.",
+      "details": []
     },
     {
       "id": "N019",
@@ -552,16 +546,14 @@
       ],
       "source_tag": "ARC",
       "native_path": "root/group[20]",
-      "display_name": "Connecteur d’articulation",
+      "display_name": "Connecteur articulé",
       "unconfirmed": true,
       "context": false,
       "review_note": "Nom, code et fonction confirmés par Troy le 27 septembre 2026.",
       "basis": "Original imported parent hierarchy; native root matched by exact translation and kind, not old IDs.",
-      "label": "Connecteur d’articulation · ARC",
-      "purpose": "Centre le tube d’échafaudage de liaison sur le montant, en maintenant le rail ScaffCover dans l’alignement du montant.",
-      "details": [
-        "Composant dédié au système ScaffCover ; ce n’est pas une pièce standard d’échafaudage."
-      ]
+      "label": "Connecteur articulé",
+      "purpose": "Aligne le tube de liaison et le rail ScaffCover sur le montant de l’échafaudage.",
+      "details": []
     },
     {
       "id": "N023",
@@ -992,8 +984,8 @@
       "context": false,
       "review_note": "Nom et code confirmés par Troy le 27 septembre 2026 ; fonction issue des indications de formation antérieures du fondateur.",
       "basis": "Original imported parent hierarchy; native root matched by exact translation and kind, not old IDs.",
-      "label": "Barre d’extension articulée TrakTec · TAEB",
-      "purpose": "Permet le réglage angulaire horizontal et vertical de la barre de suspension.",
+      "label": "Barre d’extension articulée TrakTec",
+      "purpose": "Permet de régler l’angle de la barre de suspension horizontalement et verticalement.",
       "details": [],
       "code": "TAEB"
     },
@@ -1165,8 +1157,8 @@
       "context": false,
       "review_note": "Le nom affiché suit la dernière instruction directe de Troy du 27 septembre 2026 ; l’étiquette source native est conservée pour la traçabilité.",
       "basis": "Original imported parent hierarchy; native root matched by exact translation and kind, not old IDs.",
-      "label": "Pince murale TrakTec · KWC",
-      "purpose": "Utilisée avec la barre de suspension pour positionner le panneau à la hauteur requise dans la configuration retenue pour le projet.",
+      "label": "Pince murale TrakTec",
+      "purpose": "Positionne la barre de suspension et le panneau à la hauteur souhaitée.",
       "details": [],
       "code": "KWC"
     },
