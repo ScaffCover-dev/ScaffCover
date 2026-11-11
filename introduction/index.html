@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Introduction to ScaffCover | Brochures, data sheets and engineering</title>
+<meta name="description" content="Brochures, Guard panel data sheets, engineering documents and test reports for the ScaffCover modular scaffold containment system.">
+<!-- Unlisted for now (shared by link, like the old portal page). Remove this line if Emily wants it in Google. -->
+<meta name="robots" content="noindex">
+<link rel="icon" href="/assets-sc-logo-light-notag.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter+Tight:wght@400;500;600;700;800&family=Barlow+Condensed:wght@700;900&family=IBM+Plex+Mono:wght@500;600&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --navy: #091c30; --navy-2: #102e4d; --blue: #2790ED; --blue-dark: #1F6FC0; --sky: #7cb8f2;
+    --grey-bg: #f4f6f9; --line: #e2e6ec; --text: #091c30; --muted: #5b6472;
+  }
+  * { box-sizing: border-box; }
+  html { scroll-behavior: smooth; }
+  body { margin: 0; font-family: 'Inter Tight', system-ui, sans-serif; color: var(--text); background: #fff; line-height: 1.6; }
+  a { color: var(--blue-dark); }
+  .wrap { max-width: 1184px; margin: 0 auto; padding: 0 clamp(16px, 4vw, 48px); }
+  .eyebrow { font-family: 'IBM Plex Mono', monospace; font-size: 11px; font-weight: 600; letter-spacing: .16em; text-transform: uppercase; color: var(--blue-dark); margin: 0 0 12px; }
+  h1, h2, h3 { margin: 0; line-height: 1.15; }
+  h2 { font-size: clamp(24px, 3vw, 30px); font-weight: 800; }
+  section { padding: clamp(44px, 6vw, 72px) 0; }
+  section.alt { background: var(--grey-bg); border-top: 1px solid var(--line); border-bottom: 1px solid var(--line); }
+  .lead { font-size: 17px; color: var(--muted); max-width: 70ch; margin: 14px 0 0; }
+
+  /* Header */
+  header.top { background: var(--navy); }
+  header.top .wrap { display: flex; align-items: center; justify-content: space-between; gap: 16px; height: 64px; }
+  header.top img { height: 20px; width: auto; display: block; }
+  header.top nav { display: flex; gap: 20px; }
+  header.top nav a { color: rgba(255,255,255,.78); text-decoration: none; font-size: 14px; font-weight: 600; }
+  header.top nav a:hover { color: #fff; }
+
+  /* Hero */
+  .hero { background: var(--navy-2); color: #fff; padding: clamp(48px, 7vw, 88px) 0; }
+  .hero .eyebrow { color: #9cc9f5; }
+  .hero h1 { font-size: clamp(32px, 4.4vw, 50px); font-weight: 800; max-width: 22ch; }
+  .hero h1 span { color: var(--sky); }
+  .hero p { color: rgba(255,255,255,.86); font-size: 17px; max-width: 62ch; margin: 18px 0 0; }
+  .hero .list { margin: 22px 0 0; padding: 0; list-style: none; display: grid; gap: 8px; max-width: 62ch; }
+  .hero .list li { padding-left: 22px; position: relative; color: rgba(255,255,255,.86); }
+  .hero .list li::before { content: ''; position: absolute; left: 0; top: .62em; width: 10px; height: 2px; background: var(--sky); }
+  .hero .actions { margin-top: 28px; display: flex; flex-wrap: wrap; gap: 14px; }
+
+  /* Buttons */
+  .btn { display: inline-flex; align-items: center; gap: 8px; font-size: 13px; font-weight: 700; letter-spacing: .05em; text-transform: uppercase; text-decoration: none; padding: 13px 22px; border-radius: 4px; border: 1.5px solid transparent; cursor: pointer; }
+  .btn-primary { background: var(--blue); color: #fff; }
+  .btn-primary:hover { background: var(--blue-dark); }
+  .btn-light { background: #fff; color: var(--navy); border-color: var(--line); }
+  .btn-light:hover { border-color: var(--blue); }
+  .btn-ghost { background: transparent; color: #fff; border-color: rgba(255,255,255,.4); }
+  .btn-ghost:hover { border-color: #fff; }
+  .btn small { font-weight: 500; letter-spacing: 0; text-transform: none; opacity: .75; }
+  .btn.missing { background: #fff; color: var(--muted); border: 1.5px dashed #c7ced8; }
+
+  /* Guard cards */
+  .cards { display: grid; grid-template-columns: repeat(auto-fill, minmax(min(100%, 330px), 1fr)); gap: 20px; margin-top: 32px; }
+  .card { background: #fff; border: 1px solid var(--line); border-radius: 6px; overflow: hidden; display: flex; flex-direction: column; }
+  .card img { width: 100%; aspect-ratio: 16 / 10; object-fit: cover; display: block; background: var(--grey-bg); }
+  .card .body { padding: 20px 22px 22px; display: flex; flex-direction: column; gap: 10px; flex: 1; }
+  .card h3 { font-family: 'Barlow Condensed', sans-serif; font-weight: 900; font-size: 28px; letter-spacing: .02em; text-transform: uppercase; }
+  .card p { margin: 0; color: var(--muted); font-size: 15px; }
+  .card .row { display: flex; flex-wrap: wrap; gap: 10px; margin-top: auto; padding-top: 8px; }
+  .card .more { font-size: 14px; font-weight: 600; text-decoration: none; }
+
+  /* Document lists */
+  .docs { display: grid; grid-template-columns: repeat(auto-fill, minmax(min(100%, 340px), 1fr)); gap: 16px; margin-top: 28px; }
+  .doc { display: flex; align-items: center; justify-content: space-between; gap: 14px; background: #fff; border: 1px solid var(--line); border-left: 3px solid var(--blue); border-radius: 4px; padding: 16px 18px; text-decoration: none; color: var(--text); }
+  a.doc:hover { border-color: var(--blue); }
+  .doc .t { font-weight: 700; font-size: 15.5px; }
+  .doc .m { font-family: 'IBM Plex Mono', monospace; font-size: 11.5px; color: var(--muted); margin-top: 2px; }
+  .doc .go { flex: none; font-size: 13px; font-weight: 700; color: var(--blue-dark); white-space: nowrap; }
+  .doc.missing { border-left-color: #c7ced8; }
+  .doc.missing .go { color: var(--muted); font-weight: 600; }
+
+  .panel-group { margin-top: 36px; }
+  .panel-group h3 { font-size: 19px; font-weight: 800; scroll-margin-top: 20px; }
+  .panel-group .docs { margin-top: 14px; }
+
+  .two { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 420px), 1fr)); gap: clamp(28px, 4vw, 48px); }
+
+  .note { font-size: 14px; color: #7b7b7b; margin: 18px 0 0; max-width: 80ch; }
+
+  /* Contact band + footer */
+  .contact { background: var(--navy); color: #fff; }
+  .contact h2 { color: #fff; }
+  .contact p { color: rgba(255,255,255,.82); max-width: 60ch; }
+  .contact .actions { display: flex; flex-wrap: wrap; gap: 14px; margin-top: 22px; }
+  footer { background: #06121f; color: rgba(255,255,255,.6); font-size: 14px; padding: 24px 0; }
+  footer .wrap { display: flex; flex-wrap: wrap; gap: 14px 24px; justify-content: space-between; align-items: center; }
+  footer a { color: rgba(255,255,255,.75); text-decoration: none; }
+  footer a:hover { color: #fff; }
+  footer .links { display: flex; flex-wrap: wrap; gap: 18px; }
+
+  @media (max-width: 640px) {
+    header.top nav { display: none; }
+    .doc { flex-direction: column; align-items: flex-start; }
+  }
+</style>
+</head>
+<body>
+
+<header class="top">
+  <div class="wrap">
+    <a href="/" aria-label="ScaffCover home"><img src="/assets-sc-logo-light-notag.png" alt="ScaffCover"></a>
+    <nav aria-label="On this page">
+      <a href="#brochures">Brochures</a>
+      <a href="#guard-range">Guard range</a>
+      <a href="#engineering">Engineering</a>
+      <a href="#datasheets">Data sheets</a>
+      <a href="/#/contact">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<div class="hero">
+  <div class="wrap">
+    <p class="eyebrow">Introduction to ScaffCover</p>
+    <h1>The world's only <span>modular scaffold containment system.</span></h1>
+    <p>Designed to integrate with all scaffolding systems, ScaffCover creates a clean, continuous connection across the structure, improving performance, consistency and finish. With a wide range of panel options, it provides a solution for every scaffold containment requirement.</p>
+    <p>This page brings together everything you need to understand how ScaffCover works and how it can be applied to your project:</p>
+    <ul class="list">
+      <li>Brochures for the system and each Guard panel</li>
+      <li>Technical and engineering documentation</li>
+      <li>Test reports and specification data sheets</li>
+      <li>Installation videos and an interactive 3D model</li>
+    </ul>
+    <div class="actions">
+      <a class="btn btn-primary" data-doc="brochure-main" href="#">Download the brochure</a>
+      <a class="btn btn-ghost" href="#datasheets">Data sheets</a>
+    </div>
+  </div>
+</div>
+
+<section id="brochures">
+  <div class="wrap">
+    <p class="eyebrow">Brochures</p>
+    <h2>Start with the brochure.</h2>
+    <p class="lead">An overview of the ScaffCover system: TRAKTEC track, Core and Connect components, and the Guard panel range.</p>
+    <div class="docs" data-group="brochure technical"></div>
+  </div>
+</section>
+
+<section id="guard-range" class="alt">
+  <div class="wrap">
+    <p class="eyebrow">Guard panel range</p>
+    <h2>A panel for every containment need.</h2>
+    <p class="lead">Each Guard panel slides into the same track, so you can choose the right panel for each part of the job.</p>
+    <div class="cards">
+      <article class="card">
+        <img src="/assets-p-NetGuard.jpg" alt="NetGuard mesh panels on a scaffold" loading="lazy">
+        <div class="body">
+          <h3>NetGuard</h3>
+          <p>Mesh containment with high airflow.</p>
+          <div class="row">
+            <a class="btn btn-light" data-doc="brochure-netguard" href="#">Brochure</a>
+            <a class="btn btn-light" href="#ds-netguard">Data sheets</a>
+          </div>
+          <a class="more" href="/#/netguard">More about NetGuard →</a>
+        </div>
+      </article>
+      <article class="card">
+        <img src="/assets-p-RainGuard.jpg" alt="RainGuard panels covering a walkway" loading="lazy">
+        <div class="body">
+          <h3>RainGuard</h3>
+          <p>Weather protection for enclosures, covered work areas and access routes.</p>
+          <div class="row">
+            <a class="btn btn-light" data-doc="brochure-rainguard" href="#">Brochure</a>
+            <a class="btn btn-light" href="#ds-rainguard">Data sheets</a>
+          </div>
+          <a class="more" href="/#/rainguard">More about RainGuard →</a>
+        </div>
+      </article>
+      <article class="card">
+        <img src="/assets-p-ShadeGuard.jpg" alt="ShadeGuard panels on a scaffold facade" loading="lazy">
+        <div class="body">
+          <h3>ShadeGuard</h3>
+          <p>Shade and partial airflow, in 65% and 99% options.</p>
+          <div class="row">
+            <a class="btn btn-light" data-doc="brochure-shadeguard" href="#">Brochure</a>
+            <a class="btn btn-light" href="#ds-shadeguard">Data sheets</a>
+          </div>
+          <a class="more" href="/#/shadeguard">More about ShadeGuard →</a>
+        </div>
+      </article>
+      <article class="card">
+        <img src="/assets-p-PrintGuard.jpg" alt="PrintGuard printed panels on a building" loading="lazy">
+        <div class="body">
+          <h3>PrintGuard</h3>
+          <p>Printed panels that bring project branding to the containment.</p>
+          <div class="row">
+            <a class="btn btn-light" data-doc="brochure-printguard" href="#">Brochure</a>
+            <a class="btn btn-light" href="#ds-printguard">Data sheets</a>
+          </div>
+          <a class="more" href="/#/printguard">More about PrintGuard →</a>
+        </div>
+      </article>
+      <article class="card">
+        <img src="/assets-p-printair-cricket.jpg" alt="PrintGuard Air printed mesh at a stadium" loading="lazy">
+        <div class="body">
+          <h3>PrintGuard Air</h3>
+          <p>Printed presentation with airflow.</p>
+          <div class="row">
+            <a class="btn btn-light" data-doc="brochure-printguard" href="#">Brochure</a>
+            <a class="btn btn-light" href="#ds-printguard-air">Data sheets</a>
+          </div>
+          <a class="more" href="/#/printguard-air">More about PrintGuard Air →</a>
+        </div>
+      </article>
+      <article class="card">
+        <img src="/assets-p-BlastGuard.jpg" alt="BlastGuard industrial blasting enclosure" loading="lazy">
+        <div class="body">
+          <h3>BlastGuard</h3>
+          <p>Heavy-duty containment for abrasive blasting and coating work.</p>
+          <div class="row">
+            <a class="btn btn-light" data-doc="brochure-blastguard" href="#">Brochure</a>
+            <a class="btn btn-light" href="#ds-blastguard">Data sheets</a>
+          </div>
+          <a class="more" href="/#/blastguard">More about BlastGuard →</a>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section id="engineering">
+  <div class="wrap two">
+    <div>
+      <p class="eyebrow">Engineering · AUS/NZ</p>
+      <h2>Engineering documents.</h2>
+      <p class="lead">Covers the ScaffCover system to AS/NZS 1576.1 and AS/NZS 1170.2. The supporting scaffold is engineered separately, allowing for panel porosity and wind load.</p>
+      <div class="docs" data-group="engineering" style="grid-template-columns:1fr"></div>
+    </div>
+    <div>
+      <p class="eyebrow">Testing · AUS/NZ</p>
+      <h2>Independent testing.</h2>
+      <p class="lead">How the panel, track and connectors perform together as one system.</p>
+      <div class="docs" data-group="testing" style="grid-template-columns:1fr"></div>
+    </div>
+  </div>
+</section>
+
+<section id="datasheets" class="alt">
+  <div class="wrap">
+    <p class="eyebrow">Specification data sheets</p>
+    <h2>Guard panel data sheets.</h2>
+    <p class="lead">Specification data sheets and AWTA fire test reports for each Guard panel, plus the Keder tape used in the track.</p>
+    <div class="panel-group"><h3 id="ds-netguard">NetGuard</h3><div class="docs" data-panel="netguard"></div></div>
+    <div class="panel-group"><h3 id="ds-rainguard">RainGuard</h3><div class="docs" data-panel="rainguard"></div></div>
+    <div class="panel-group"><h3 id="ds-shadeguard">ShadeGuard</h3><div class="docs" data-panel="shadeguard"></div></div>
+    <div class="panel-group"><h3 id="ds-printguard">PrintGuard</h3><div class="docs" data-panel="printguard"></div></div>
+    <div class="panel-group"><h3 id="ds-printguard-air">PrintGuard Air</h3><div class="docs" data-panel="printguard-air"></div></div>
+    <div class="panel-group"><h3 id="ds-blastguard">BlastGuard</h3><div class="docs" data-panel="blastguard"></div></div>
+    <div class="panel-group"><h3 id="ds-keder">Keder tape</h3><div class="docs" data-panel="keder"></div></div>
+  </div>
+</section>
+
+<section id="videos">
+  <div class="wrap two">
+    <div>
+      <p class="eyebrow">See it in action</p>
+      <h2>Videos and 3D model.</h2>
+      <p class="lead">Explore the system in 3D, or watch how the components go together.</p>
+      <div class="docs" style="grid-template-columns:1fr">
+        <a class="doc" href="/explore.html"><div><div class="t">Explore the system in 3D</div><div class="m">Interactive model · scaffcover.com</div></div><span class="go">Open →</span></a>
+        <a class="doc" href="https://www.youtube.com/watch?v=4ttU6XEX0TI" target="_blank" rel="noopener"><div><div class="t">Fitting the TrakTec Ringlock connector</div><div class="m">Video · YouTube</div></div><span class="go">Watch ↗</span></a>
+        <a class="doc" href="https://www.youtube.com/watch?v=24-du5rCZiQ" target="_blank" rel="noopener"><div><div class="t">Fitting the TrakTec track joiner</div><div class="m">Video · YouTube</div></div><span class="go">Watch ↗</span></a>
+        <a class="doc" href="https://www.youtube.com/@scaffcover/videos" target="_blank" rel="noopener"><div><div class="t">All ScaffCover videos</div><div class="m">YouTube channel</div></div><span class="go">Watch ↗</span></a>
+      </div>
+    </div>
+    <div>
+      <p class="eyebrow">Terms</p>
+      <h2>Terms and conditions of sale.</h2>
+      <p class="lead">The terms that apply to ScaffCover orders in Australia.</p>
+      <div class="docs" data-group="terms" style="grid-template-columns:1fr"></div>
+    </div>
+  </div>
+</section>
+
+<section class="contact">
+  <div class="wrap">
+    <h2>Talk to us about your project.</h2>
+    <p>Call 1300 COVERED, or send us the project location, drawings and intended use and we'll work through how the system can be configured for it. Designed, developed and owned in Australia.</p>
+    <div class="actions">
+      <a class="btn btn-primary" href="/#/contact?reason=Project%20enquiry">Project enquiry</a>
+      <a class="btn btn-ghost" href="tel:1300268373">Call 1300 COVERED</a>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">
+    <span>© ScaffCover <span id="year">2026</span></span>
+    <div class="links">
+      <a href="/">scaffcover.com</a>
+      <a href="/#/contact">Contact</a>
+      <a href="https://www.youtube.com/@scaffcover/videos" target="_blank" rel="noopener">YouTube</a>
+      <a href="https://www.instagram.com/scaffcover" target="_blank" rel="noopener">Instagram</a>
+      <a href="https://www.linkedin.com/company/scaffcover" target="_blank" rel="noopener">LinkedIn</a>
+    </div>
+  </div>
+</footer>
+
+<script>
+(function () {
+  document.getElementById('year').textContent = new Date().getFullYear();
+
+  function esc(s) { return String(s).replace(/[&<>"]/g, function (c) { return { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]; }); }
+
+  function docRow(d) {
+    var meta = [d.note, d.market, 'PDF', d.size].filter(Boolean).join(' · ');
+    if (!d.url) {
+      return '<a class="doc missing" href="/#/contact?reason=' + encodeURIComponent('Document request: ' + d.title) + '">' +
+        '<div><div class="t">' + esc(d.title) + '</div><div class="m">' + esc(meta) + '</div></div>' +
+        '<span class="go">Ask us →</span></a>';
+    }
+    return '<a class="doc" href="' + esc(d.url) + '" target="_blank" rel="noopener">' +
+      '<div><div class="t">' + esc(d.title) + '</div><div class="m">' + esc(meta) + '</div></div>' +
+      '<span class="go">View ↗</span></a>';
+  }
+
+  fetch('documents.json', { cache: 'no-cache' })
+    .then(function (r) { return r.json(); })
+    .then(function (data) {
+      var docs = data.documents || [];
+      var byId = {};
+      docs.forEach(function (d) { byId[d.id] = d; });
+
+      // Single buttons (brochure buttons on the hero and Guard cards)
+      document.querySelectorAll('[data-doc]').forEach(function (el) {
+        var d = byId[el.getAttribute('data-doc')];
+        if (d && d.url) {
+          el.href = d.url; el.target = '_blank'; el.rel = 'noopener';
+          if (d.size) el.insertAdjacentHTML('beforeend', ' <small>' + esc(d.size) + '</small>');
+        } else {
+          el.href = '/#/contact?reason=' + encodeURIComponent('Document request: ' + (d ? d.title : 'brochure'));
+          el.classList.add('missing');
+          el.textContent = (el.textContent.trim() || 'Brochure') + ' on request';
+        }
+      });
+
+      // Lists by group
+      document.querySelectorAll('[data-group]').forEach(function (box) {
+        var groups = box.getAttribute('data-group').split(' ');
+        box.innerHTML = docs.filter(function (d) { return groups.indexOf(d.group) > -1; }).map(docRow).join('');
+      });
+
+      // Data sheets by panel
+      document.querySelectorAll('[data-panel]').forEach(function (box) {
+        var p = box.getAttribute('data-panel');
+        box.innerHTML = docs.filter(function (d) {
+          return d.group === 'datasheet' && (' ' + (d.panel || '') + ' ').indexOf(' ' + p + ' ') > -1;
+        }).map(docRow).join('');
+      });
+    })
+    .catch(function () {
+      document.querySelectorAll('[data-group],[data-panel]').forEach(function (box) {
+        box.innerHTML = '<p class="note">Documents could not be loaded. Please <a href="/#/contact">contact us</a> and we will send them to you.</p>';
+      });
+    });
+})();
+</script>
+</body>
+</html>

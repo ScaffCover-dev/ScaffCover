@@ -1,0 +1,39 @@
+{
+  "_about": "Documents shown on scaffcover.com/introduction. Each url is a Google Drive file for now (must be shared 'anyone with the link can view'). When the portal document library exists, swap each url for app.scaffcover.com/docs/<id>. 'old' = the Ontraport tracked link it replaces. url null = not in Drive yet (only on Ontraport).",
+  "documents": [
+    { "id": "brochure-main", "group": "brochure", "title": "ScaffCover brochure", "size": "9.0 MB", "old": "tl/1", "url": "https://drive.google.com/file/d/1tuQqI47MrzZQjB_ONUa5ZtMwTPHJlcNY/view" },
+
+    { "id": "brochure-netguard", "group": "panel-brochure", "panel": "netguard", "title": "NetGuard brochure", "size": "23.7 MB", "old": "tl/28", "url": "https://drive.google.com/file/d/15iQfg8QtLUgKAvlRJWW5fFOm4YhzCqJW/view" },
+    { "id": "brochure-rainguard", "group": "panel-brochure", "panel": "rainguard", "title": "RainGuard brochure", "size": "25.7 MB", "old": "tl/30", "url": "https://drive.google.com/file/d/1o9GzIpPFwRBFwTcL0IblHyb4acA9vZYi/view" },
+    { "id": "brochure-shadeguard", "group": "panel-brochure", "panel": "shadeguard", "title": "ShadeGuard brochure", "size": "40.0 MB", "old": "tl/29", "url": "https://drive.google.com/file/d/1OW_p8YK6OZnpu52RWTO9FPQL4yzy_OVR/view" },
+    { "id": "brochure-printguard", "group": "panel-brochure", "panel": "printguard", "title": "PrintGuard brochure", "size": "35.6 MB", "old": "tl/27", "url": "https://drive.google.com/file/d/1Snf_fdvBvJkfjtvmyncA0itLK_EeG6O5/view" },
+    { "id": "brochure-blastguard", "group": "panel-brochure", "panel": "blastguard", "title": "BlastGuard brochure", "size": "1.3 MB", "old": "tl/25", "url": null },
+
+    { "id": "technical-overview", "group": "technical", "title": "ScaffCover technical overview", "size": "10.7 MB", "old": "tl/13", "url": null },
+    { "id": "consult-brochure", "group": "technical", "title": "Working together to get the job done", "note": "Getting the best out of ScaffCover", "size": "1.2 MB", "old": "tl/26", "url": "https://drive.google.com/file/d/12O0ep_wNdxZaZAnaggVpPHIheGzsNdmc/view" },
+
+    { "id": "engineering-statement", "group": "engineering", "market": "AU/NZ", "title": "Engineering statement", "size": "0.5 MB", "old": "tl/11", "url": "https://drive.google.com/file/d/1T7GOCz6O4FBOArVqYXjDkdPuQNuDv6ur/view" },
+    { "id": "engineering-certificate", "group": "engineering", "market": "AU/NZ", "title": "Engineering certificate", "size": "0.1 MB", "old": "tl/12", "url": null },
+
+    { "id": "test-strength", "group": "testing", "market": "AU/NZ", "title": "Strength testing", "size": "0.7 MB", "old": "tl/17", "url": "https://drive.google.com/file/d/1BUaMJ-V4Tje8pjyKvhWf7OYGxj_WP20I/view" },
+    { "id": "test-tensile", "group": "testing", "market": "AU/NZ", "title": "Panel tensile breaking force test", "size": "0.3 MB", "old": "tl/18", "url": "https://drive.google.com/file/d/178ecE4OUEV6b8lD2Rz4XrnQWyVz0SX-D/view" },
+    { "id": "test-destructive", "group": "testing", "market": "AU/NZ", "title": "Destructive test on fixing", "size": "0.7 MB", "old": "tl/19", "url": "https://drive.google.com/file/d/1kSa6TBe7JrI6MxlHsg3JjRrhPtxEKdHa/view" },
+    { "id": "test-bursting", "group": "testing", "market": "AU/NZ", "title": "Panel bursting pressure test", "size": "0.4 MB", "old": "tl/20", "url": "https://drive.google.com/file/d/1G_ReDMdCat8BXocrCphPEHrsncGVuw2w/view" },
+
+    { "id": "tds-netguard", "group": "datasheet", "panel": "netguard", "title": "NetGuard specification data sheet", "size": "0.3 MB", "old": "tl/5", "url": "https://drive.google.com/file/d/1pbado4eMcaEiKjo4E0Pj7gu2_IcudY2O/view" },
+    { "id": "tds-rainguard-printguard", "group": "datasheet", "panel": "rainguard printguard", "title": "RainGuard / PrintGuard specification data sheet", "size": "0.3 MB", "old": "tl/3, tl/6", "url": "https://drive.google.com/file/d/1KzJBRZI3cl6GgeSQ07cmxVtwVNd1x3SD/view" },
+    { "id": "fire-rainguard-printguard-1", "group": "datasheet", "panel": "rainguard printguard", "title": "RainGuard / PrintGuard fire testing (AWTA), part 1", "size": "0.1 MB", "old": "tl/15", "url": "https://drive.google.com/file/d/15zvL96GaDLkOwAn5uopizkESwRvCLH4l/view" },
+    { "id": "fire-rainguard-printguard-2", "group": "datasheet", "panel": "rainguard printguard", "title": "RainGuard / PrintGuard fire testing (AWTA), part 2", "size": "0.1 MB", "old": "tl/16", "url": "https://drive.google.com/file/d/1rEz1LbpIgRCutT0HOYPCQwy9CGF7B9ft/view" },
+    { "id": "tds-shadeguard-65", "group": "datasheet", "panel": "shadeguard", "title": "ShadeGuard 65% specification data sheet", "size": "1.0 MB", "old": "tl/4", "url": "https://drive.google.com/file/d/1yBZCzgO5XDVm8yDUobJZ9mBFUMcCN1BX/view" },
+    { "id": "tds-shadeguard-99", "group": "datasheet", "panel": "shadeguard", "title": "ShadeGuard 99% specification data sheet", "size": "0.3 MB", "old": "tl/8", "url": "https://drive.google.com/file/d/1mLJUMJjbqZsXTcvwxNF9covlMNy4d2Mj/view" },
+    { "id": "tds-printguard-air", "group": "datasheet", "panel": "printguard-air", "title": "PrintGuard Air specification data sheet", "size": "0.5 MB", "old": "tl/21", "url": "https://drive.google.com/file/d/1OkE0Jd52SPimXX8XNKzE5-CrkUcXPDZZ/view" },
+    { "id": "fire-printguard-air-a", "group": "datasheet", "panel": "printguard-air", "title": "PrintGuard Air fire testing (AWTA), part A", "size": "0.1 MB", "old": "tl/22", "url": "https://drive.google.com/file/d/1MxwjMrwkhbOp94525G8QDD6obyKOw8_p/view" },
+    { "id": "fire-printguard-air-b", "group": "datasheet", "panel": "printguard-air", "title": "PrintGuard Air fire testing (AWTA), part B", "size": "0.1 MB", "old": "tl/23", "url": "https://drive.google.com/file/d/1kQKpPy6Ee9AES3MbAyfuzMu2v4ii_fEn/view" },
+    { "id": "tds-blastguard", "group": "datasheet", "panel": "blastguard", "title": "BlastGuard specification data sheet", "size": "0.3 MB", "old": "tl/24", "url": "https://drive.google.com/file/d/1V08kgimglhlw-JwqHO6bDeuB1qO2FMdU/view" },
+    { "id": "fire-blastguard-a", "group": "datasheet", "panel": "blastguard", "title": "BlastGuard fire testing (AWTA), part A", "size": "0.2 MB", "old": "tl/35", "url": "https://drive.google.com/file/d/16O1ra6hKb6Ab8zhuEzXuj2A4i4b4BFxG/view" },
+    { "id": "fire-blastguard-b", "group": "datasheet", "panel": "blastguard", "title": "BlastGuard fire testing (AWTA), part B", "size": "0.2 MB", "old": "tl/34", "url": "https://drive.google.com/file/d/1lD_gg2fnqai_cwv0edtVbGH2r4zWi9ue/view" },
+    { "id": "tds-keder", "group": "datasheet", "panel": "keder", "title": "Keder tape specification data sheet", "size": "0.5 MB", "old": "tl/7", "url": "https://drive.google.com/file/d/1aFV6FN-WOWvjcvBfFeV0vpnhSMLn6y1u/view", "check": "Ontraport copy (Apr 2026, 531 KB) differs from this Drive copy (573 KB)" },
+
+    { "id": "terms-au", "group": "terms", "market": "AU", "title": "Terms and conditions of sale (Australia)", "size": "0.7 MB", "old": "tl/14", "url": "https://drive.google.com/file/d/1g8Wm7xQgh1HdaG8kEi7YEb0kRMalN3Md/view" }
+  ]
+}
